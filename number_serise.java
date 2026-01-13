@@ -3,7 +3,7 @@ class Num_series{
     int a=0;
     int [] arr;
     int sum=0;
-    int avg=0;
+    double avg=0;
     Num_series(int a){
         this.a=a;
         arr=new int[a];
@@ -47,3 +47,4 @@ public class number_serise {
         
     }
 }
+
