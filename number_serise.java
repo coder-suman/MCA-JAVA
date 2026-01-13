@@ -16,20 +16,14 @@ class Num_series{
     void display_series(){
         for (int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
-        }
-        System.out.println();
+        } System.out.println();
     }
-    void sum_number(){
+    void sum_avg_number(){
         for(int num:arr){
             sum=sum+num;
         }
         System.out.println("The sum of all number is: "+sum);
-    }
-    void avg_number(){
-         for(int num:arr){
-            avg=avg+num;
-        }
-        avg=avg/arr.length;
+        avg=sum/arr.length;
         System.out.println("The average of all number: "+avg);
     }
 } 
@@ -41,10 +35,6 @@ public class number_serise {
         Num_series ns=new Num_series(num);
         ns.gen_number_series();
         ns.display_series();
-        ns.sum_number();
-        ns.avg_number();
-
-        
+        ns.sum_avg_number();
     }
 }
-
