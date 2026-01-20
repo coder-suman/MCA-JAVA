@@ -1,3 +1,4 @@
+//Develop a java program that stores the details of an employee in suitable variables and the display the stored information back to the user in an well-formatted manner. The program should accept details such as the employee name, employee id, designation, company name and net salary using standrad input, store them temporarilt in memory, and then retrieve and print the information to demonstrate input processing and structured output representation without using any file operations.
 import java.util.Scanner;
 class Employee{
     Scanner sc=new Scanner(System.in);
@@ -39,3 +40,4 @@ public class assignment_5 {
         ep.display_empdetails();
     }
 }
+
