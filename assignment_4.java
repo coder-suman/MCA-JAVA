@@ -1,3 +1,4 @@
+//Create a java program that analyzes a number entered by the user.
 import java.util.Scanner;
 class Check_number{
     String check_pos_neg(int a){
@@ -73,3 +74,4 @@ public class assignment_4 {
         
     }
 }
+
