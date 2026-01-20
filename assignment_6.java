@@ -1,3 +1,4 @@
+//Design and implement a java program to generate a numeric series and perform basic analysis on it.
 import java.util.Scanner;
 class Num_series{
     int a=0;
@@ -38,3 +39,4 @@ public class assignment_6 {
         ns.sum_avg_number();
     }
 }
+
