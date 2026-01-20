@@ -1,5 +1,5 @@
+//Design a java program that display a simple personal profile on the console. The program should store basic information such as name, age,console, and institution in appropriate variables and display them using formatted output statements.
 
-//name,age,course,institute
 import java.util.Scanner;
 
 class Personal {
@@ -40,4 +40,5 @@ public class assignment_7 {
         p.take_input();
         p.display_empdetails();
     }
+
 }
