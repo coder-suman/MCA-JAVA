@@ -1,3 +1,4 @@
+//Design a java program that accepts three integer values from the user and determines the largest among them using conditional statements. The program should clearly display the input values and the computed result, thereby strengthening understanding of relational operators and decision-making logic.
 class found_Max{
     void cal_max(int a,int b,int c){
         if(a>b && a>c){
@@ -23,3 +24,4 @@ public class assignmet_10 {
 
     }
 }
+
