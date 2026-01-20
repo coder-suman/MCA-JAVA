@@ -1,3 +1,4 @@
+//Create a java application that converts temperature from Celsius to Fahrenheit. The program should accept the temperature value as input, apply the appropriate conversion formula, and display the converted result.
 import java.util.Scanner;
 
 class Temp_convert{
@@ -15,3 +16,4 @@ public class assignment_8 {
         tc.conv_fahrenheit(n);
     }
 }
+
